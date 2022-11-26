@@ -1,0 +1,751 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: "playfair";
+}
+
+/*main header style, contained with nav + logo*/
+
+.main-head {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.phone-num {
+    color: rgb(72, 90, 72);
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.book-btn {
+    cursor: pointer;
+    font-weight: 550;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(72, 90, 72);
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    
+}
+
+
+.anais-logo {
+    margin-top: 20px;
+    width: 8rem;
+    height: 8rem
+}
+
+.sub-heading-nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px 0;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+}
+
+.sub-heading-nav a {  
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+}
+
+.sub-heading-nav a:hover {
+    text-decoration: underline;   
+    text-decoration-color: rgb(72, 90, 72);
+    text-decoration-thickness: 2px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+}
+
+.hamburger .bar {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* .sub-heading-nav li:hover {
+    background-color: rgb(72, 90, 72);  
+    text-decoration-color: rgb(72, 90, 72);
+    text-decoration-thickness: 2px;
+} */
+
+.promo-vid {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.vid-pro {
+    padding: 56.25% 0 0 0;
+    position: relative;
+    margin-top: 30px;
+}
+
+.top-container {
+    text-align: center;
+}
+.salon {
+    width: 1200px;
+    height: 700px;
+    
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.article-wrapper {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-left: 15px;
+    
+}
+
+.title {
+    margin: 0 25%;
+    
+}
+
+.title h1 {
+    font-family: "playfair";
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 25px 0 0 0;
+}
+
+.title p {
+    color: rgb(72, 90, 72);
+    font-weight: bold;
+    margin: 0;
+}
+
+.about h2 {
+    font-family: "playfair";
+}
+
+.about p {
+    line-height: 1.5rem;
+}
+
+.box {
+    line-height: 1.5rem;
+}
+
+.box p {
+    padding-left: 10px;
+    border-left: 1px solid grey;
+}
+
+/* CSS for form section*/
+
+.booking-wrapper {
+    background-color: rgba(255, 235, 205, 0.726);
+    height: 200px;
+}
+
+.booking-title {
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    font-family: 'playfair';
+}
+
+.booking-title h2 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+.booking-title p {
+    text-align: center;
+    margin: 2px 0 0 0;
+    font-family: 'open sans';
+}
+
+.input-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choice {
+    font-family: 'open sans';
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+#submit-btn {
+    font-family: 'open sans';
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(72, 90, 72);
+    border: none;
+    margin-right: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    height: 800px;
+}
+
+.images-wrapper {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.gal-pic {
+    width: 470px;
+    height: 300px;
+
+}
+
+.img {
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.skincare {
+    display: flex;
+    gap: 5rem;
+    justify-content: center ;
+}
+
+.skin-logo {
+    margin: 25px 0;
+    width: 220px;
+    height: 200px;
+}
+
+/*testimonial section*/
+
+.testimonial-container {
+    height: 300px;
+    background-color: rgba(255, 235, 205, 0.726);
+}
+
+.testimonial-container h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.testimonial-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.testimonial-content div {
+    width: 300px;
+    margin: 0 50px;
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: rgb(243, 243, 229); */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+    
+
+.social-links > a {
+    cursor: pointer;
+}
+
+.social-logo-f {
+    width: 41px;
+    height: 41px;
+}
+.social-logo-t {
+    width: 47px;
+    height: 47px;
+}
+.social-logo-i {
+    width: 45px;
+    height: 45px;
+}
+
+.copyright {
+    margin-right: 20px;
+}
+
+/*contact us page*/
+
+.main-contact {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 235, 205, 0.423);
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    padding-top: 50px;
+}
+
+.form-container {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    width: 300px;
+    height:35px;
+  }
+
+input[type=email] {
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    width: 300px;
+    height:35px;
+  }
+
+  textarea {
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+  }
+
+input[type=submit] {
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    height:35px;
+  }
+
+  .salon-info {
+    text-align: center;
+  }
+
+  .salon-info p {
+    font-size: 1.6rem;
+  }
+
+  .salon-info :nth-child(4){
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+/* tablet sizing */
+
+@media screen and (max-width: 1260px) {
+    .main-head {
+        width: 90%;
+    }
+    .sub-heading-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+
+    .sub-heading-nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .sub-heading-nav ul li {
+        padding: 5px 0;
+    }
+    
+    .hamburger {
+        display: flex;
+        top: 160px;
+    }
+
+    .sub-heading-nav a {
+        display: none;
+    }
+
+    /* main image */
+
+    .salon {
+        width: 80%;
+        height: fit-content;
+    }
+
+    /* main article */
+
+    .article-wrapper {
+        width: 100vw;
+        flex-direction: column; 
+    }
+
+    .about {
+        margin: 0 15px;
+    }
+
+    .box p{
+        margin-right: 10px;
+    }
+
+    /* booking sizing */
+
+    .booking-wrapper {
+        height: 250px;
+    }
+
+    .choice {
+        margin: 5px;
+    }
+
+    /* image gallery */
+
+    .gallery-container {
+        width: auto;
+        height: auto;
+    }
+
+    .images-wrapper {
+        width: auto;
+        display: flex;
+        flex-grow: inherit;
+        justify-content: center;
+    }
+
+    .gal-pic {
+        width: 250px;
+        height: 200px;
+    }
+
+    /* skincare sizing */
+
+    .skincare {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin-top: 10px;
+       }
+    
+       .skin-logo {
+        margin: 0;
+        width: 40%;
+        height: fit-content;
+       }
+
+       .logo-5 {
+        grid-column: 1/3;
+       }
+
+       /* testimonials */
+
+       .testimonial-container {
+        height: auto;
+       }
+        
+    
+       .testimonial-container h1 {
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: center;
+       }
+    
+    
+       .testimonial-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+       }
+
+       .main-contact {
+        width: 90vw;
+       }
+    
+       footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+
+}
+
+
+ /* mobile phone sizing */
+
+@media screen and (max-width: 500px) {
+
+    /* navingation menu */
+
+    .main-head {
+        margin-bottom: 20px;
+    }
+
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone-num {
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+        top: 1rem;
+    }
+
+    .sub-heading-nav a {
+        display: none;
+    }
+
+    /* main image */
+
+    .main {
+        width: 100vw;
+    }
+
+    .salon {
+        width: 80%;
+        height: fit-content;
+    }
+
+
+    /* article sizing */
+
+    .article-wrapper {
+        width: 100vw;
+        flex-direction: column; 
+    }
+
+    .about {
+       text-align: center;
+       padding: 0 15px;
+       
+    }
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box h4 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .box p {
+        padding-right: 15px;
+    }
+
+    /* booking sizing */
+
+    .booking-wrapper {
+        height: 450px;
+    }
+
+   .choice {
+        margin: 5px 0;
+   }
+
+   #submit-btn {
+    margin: 5px 0;
+   }
+
+   /* images */
+
+   .images-wrapper {
+    width: 100vw;
+   }
+
+
+   .gallery-container {
+    height: 1800px;
+    text-align: center;
+   }
+
+   .gal-pic {
+    width: 80%;
+    height: fit-content;
+   }
+
+   .skincare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .skin-logo {
+    margin: 0;
+    width: 50%;
+    height: fit-content;
+   }
+
+ /* testimonials */
+
+   .testimonial-container {
+    height: auto;
+   }
+
+   .testimonial-container h1 {
+    margin: 0;
+    padding: 10px 0 0;
+   }
+
+
+   .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .copyright p {
+    margin: 0;
+   }
+
+
+   /* contact page*/
+
+   .main-contact {
+    width: 90vw;
+   }
+
+   
+   textarea {
+    max-width: 80vw;
+
+}
+
+
+}
+    
+
