@@ -179,7 +179,7 @@ h1, h2, h3, h4 {
 /* CSS for form section*/
 
 .booking-wrapper {
-    background-color: rgba(255, 235, 205, 0.726);
+    background-color: rgba(255, 235, 205, 0.321);
     height: 200px;
 }
 
@@ -266,7 +266,7 @@ h1, h2, h3, h4 {
 
 .skin-logo {
     margin: 25px 0;
-    width: 220px;
+    width: 250px;
     height: 200px;
 }
 
@@ -274,7 +274,7 @@ h1, h2, h3, h4 {
 
 .testimonial-container {
     height: 300px;
-    background-color: rgba(255, 235, 205, 0.726);
+    background-color: rgba(255, 235, 205, 0.321);
 }
 
 .testimonial-container h1 {
