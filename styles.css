@@ -401,10 +401,6 @@ input[type=submit] {
     width: 50%;
 }
 
-.treat-wrapper {
-    
-}
-
 .treat-title {
     text-align: center;
     font-size: 1.3rem;
@@ -422,7 +418,8 @@ input[type=submit] {
 
 
 .inner-mass-1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
@@ -641,6 +638,14 @@ input[type=submit] {
        .main-contact {
         width: 90vw;
        }
+
+       /*Treatment*/
+
+       .main-treat {
+        width: 90vw;
+       }
+
+
     
        footer {
         display: flex;
@@ -778,6 +783,20 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     text-align: center;
+   }
+
+   /*treatment*/
+
+   .main-treat {
+    width: 90vw;
+   }
+
+   .inner-mass {
+    grid-template-columns: 1fr;
+   }
+
+   .inner-mass-1 {
+    grid-template-columns: 1fr;
    }
 
    footer {
