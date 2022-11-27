@@ -396,23 +396,63 @@ input[type=submit] {
 
   /*treatment page*/
 
+.main-treat {
+    margin: 0 auto;
+    width: 50%;
+}
 
-  .main-treat {
+.treat-wrapper {
+    
+}
+
+.treat-title {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.treat-title p {
+    color: rgb(72, 90, 72);
+}
+
+.inner-mass {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 50%;
-    margin: 0 auto;
-  }
+    gap: 1rem;
+}
 
-  .main-treat div {
-    background-color: blue;
-    border: 1px solid aqua;
-  }
-  
-  .inner-box {
+
+.inner-mass-1 {
     display: flex;
-    flex-direction: column;
-  }
+    gap: 1rem;
+}
+
+.mass-flex {
+    padding: 15px;
+    background-color: rgba(255, 235, 205, 0.321);
+    border-radius: 20px;
+}
+
+.mass-flex h3 {
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+}
+
+.trt-btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(72, 90, 72, 0.5);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.trt-btn:hover {
+    background-color: rgb(72, 90, 72);
+}
+
+
 
 
 
