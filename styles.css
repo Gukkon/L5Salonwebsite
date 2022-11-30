@@ -233,7 +233,7 @@ h1, h2, h3, h4 {
 }
 
 .gallery-container {
-    height: 800px;
+    min-height: 800px;
 }
 
 .images-wrapper {
@@ -853,6 +853,7 @@ input[type=submit] {
     margin: 0;
    }
 
+  
 
    /* contact page*/
 
