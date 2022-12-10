@@ -41,9 +41,9 @@ h1, h2, h3, h4 {
     font-weight: 550;
     width: 8rem;
     height: 3rem;
-    background-color: rgb(72, 90, 72);
+    background-color: rgb(72, 90, 72, 0.7);
     border: none;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1.3px;
     
 }
@@ -323,24 +323,31 @@ h1, h2, h3, h4 {
 footer {
     width: 50%;
     margin: 0 auto;
-    /* background-color: rgb(243, 243, 229); */
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
+.social-links a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.social-links li {
+    list-style: none; 
+}
 
 .social {
+    width: 30%;
+}
+
+.social-links ul {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-    
-
-.social-links > a {
-    cursor: pointer;
 }
 
+/* 
 .social-logo-f {
     width: 41px;
     height: 41px;
@@ -356,7 +363,7 @@ footer {
 
 .copyright {
     margin-right: 20px;
-}
+} */
 
 /*contact us page*/
 
@@ -477,6 +484,7 @@ input[type=submit] {
 
 .trt-btn:hover {
     background-color: rgb(72, 90, 72);
+    color: #fff;
 }
 
 
@@ -727,6 +735,19 @@ input[type=submit] {
         align-items: center;
        }
 
+       .social-links li {
+        margin-right: 15px;
+       }
+
+       .social-links ul {
+        padding: 0;
+        justify-content: center;
+       }
+
+       .copyright {
+        text-align: center;
+       }
+
 
 }
 
@@ -898,6 +919,16 @@ input[type=submit] {
    .copyright p {
     margin: 0;
    }
+
+   .social-links ul {
+    padding: 0;
+    justify-content: center;
+   }
+
+   .social {
+    width: 90vw;
+   }
+
 
   
 
