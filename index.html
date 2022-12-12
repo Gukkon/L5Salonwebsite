@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta lang="en" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
@@ -18,7 +19,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Simply Anais | The Beauty Specialist</title>
   </head>
   <body>
@@ -36,9 +43,8 @@
           />
         </div>
         <div class="book-now-button">
-          <a href="#" class="book-link">
-            <button class="book-btn">BOOK NOW</button>
-          </a>
+          <button class="book-btn">BOOK NOW</button>
+          <a href="#" class="book-link"> </a>
         </div>
       </div>
 
@@ -65,7 +71,7 @@
       </div>
     </header>
     <section class="top-container">
-      <img class="salon" src="images/salon.jpg" />
+      <img class="salon" src="images/salon.jpg" alt="Image of the Salon" />
 
       <!--Video content for store-->
       <!-- <div class="vid-pro">
@@ -164,8 +170,8 @@
         <h2>Book with us now</h2>
         <p>Your one click away from starting your luxury adventure</p>
       </div>
-      <div class="booking-form" action="" method="post">
-        <form class="input-area">
+      <div class="booking-form">
+        <form class="input-area" method="POST">
           <label for="type-of-stay"></label>
           <select class="choice" id="type-of-stay" name="type-of-stay" required>
             <option value="">Spa Option</option>
@@ -205,112 +211,138 @@
           <input id="submit-btn" type="submit" value="Submit" />
         </form>
       </div>
+    </section>
 
-      <section class="gallery-container">
-        <div class="gal-title">
+    <section class="gallery-container">
+      <div class="gal-title">
         <h1>Explore what we have to offer</h1>
       </div>
-        <div class="images-wrapper">
-          <div class="img bord-bott">
-            <img class="gal-pic" src="images/pedi.jpg" />
-          </div>
-          <div class="img bord-bott bord-left">
-            <img class="gal-pic" src="images/poolside.jpg" />
-          </div>
-          <div class="img bord-bott bord-left">
-            <img class="gal-pic" src="images/sauna.jpg" />
-          </div>
-          <div class="img bord-right">
-            <img class="gal-pic" src="images/spafriends.jpg" />
-          </div>
-          <div class="img bord-right">
-            <img class="gal-pic" src="images/gym.jpg" />
-          </div>
-          <div class="img">
-            <img class="gal-pic" src="images/womanrelaxing.jpg" />
-          </div>
+      <div class="images-wrapper">
+        <div class="img bord-bott">
+          <img
+            class="gal-pic"
+            src="images/pedi.jpg"
+            alt="Image of a pedicure"
+          />
         </div>
-      </section>
+        <div class="img bord-bott bord-left">
+          <img
+            class="gal-pic"
+            src="images/poolside.jpg"
+            alt="Image of the pool at the spa"
+          />
+        </div>
+        <div class="img bord-bott bord-left">
+          <img
+            class="gal-pic"
+            src="images/sauna.jpg"
+            alt="The sauna at the spa"
+          />
+        </div>
+        <div class="img bord-right">
+          <img
+            class="gal-pic"
+            src="images/spafriends.jpg"
+            alt="Friends enjoying their time at the spa"
+          />
+        </div>
+        <div class="img bord-right">
+          <img
+            class="gal-pic"
+            src="images/gym.jpg"
+            alt="The gym area at the spa"
+          />
+        </div>
+        <div class="img">
+          <img
+            class="gal-pic"
+            src="images/womanrelaxing.jpg"
+            alt="A woman relaxing at the spa"
+          />
+        </div>
+      </div>
+    </section>
     <section class="packages">
       <h1>What packages we have on offer</h1>
       <div class="package-wrapper">
-      <div class="pack-box">
-        <h2>One Day</h2>
-        <p>
-          For our one day package option, you have the chance to come in for 1
-          or more treatments. Treatments have to total an hour minimum if you
-          choose this package and have a maximum of 3 adults.
-        </p>
+        <div class="pack-box">
+          <h2>One Day</h2>
+          <p>
+            For our one day package option, you have the chance to come in for 1
+            or more treatments. Treatments have to total an hour minimum if you
+            choose this package and have a maximum of 3 adults.
+          </p>
 
-        <h3>Benefits</h3>
-        <ul class="list">
-          <li>Great for a one off treatment</li>
-          <li>
-            No wait time as we will let you know right away of any free slots
-          </li>
-          <li>Fit in any time of the day up until 6pm</li>
-          <li>Share the joy with upto 3 friends</li>
-          <li>Enjoy a professional treatment with minimal cost</li>
-        </ul>
-        <p>Cost: Dependant on treatment</p>
-        <div class="book-now-button">
-          <a href="#" class="book-link">
+          <h3>Benefits</h3>
+          <ul class="list">
+            <li>Great for a one off treatment</li>
+            <li>
+              No wait time as we will let you know right away of any free slots
+            </li>
+            <li>Fit in any time of the day up until 6pm</li>
+            <li>Share the joy with upto 3 friends</li>
+            <li>Enjoy a professional treatment with minimal cost</li>
+          </ul>
+          <p>Cost: Dependant on treatment</p>
+          <div class="book-now-button">
             <button class="book-btn">BOOK NOW</button>
-          </a>
+            <a href="#" class="book-link"> </a>
+          </div>
         </div>
-      </div>
-      <div class="pack-box">
-        <h2>Spa Retreat</h2>
-        <p>
-          Do you want a retreat where you can enjoy a good few days of
-          pampering? Then a Spa Retreat Package is just for you. With up to 3
-          adults you can enjoy a luxury retreat for up to 3 days with us where
-          you get the 2 treatments a day with morning breakfast and evening tea.
-        </p>
+        <div class="pack-box">
+          <h2>Spa Retreat</h2>
+          <p>
+            Do you want a retreat where you can enjoy a good few days of
+            pampering? Then a Spa Retreat Package is just for you. With up to 3
+            adults you can enjoy a luxury retreat for up to 3 days with us where
+            you get the 2 treatments a day with morning breakfast and evening
+            tea.
+          </p>
 
-        <h3>Benefits</h3>
-        <ul class="list">
-          <li>Great for a weekend full of treatments</li>
-          <li>Use of the facilities such as pool and sauna</li>
-          <li>Morning breakfast with evening tea</li>
-          <li>Multiple treatments of your choice</li>
-          <li>Choice of one class per group</li>
-        </ul>
-        <p>Cost: £195pp</p>
-        <div class="book-now-button">
-          <a href="#" class="book-link">
-            <button class="book-btn">BOOK NOW</button>
-          </a>
+          <h3>Benefits</h3>
+          <ul class="list">
+            <li>Great for a weekend full of treatments</li>
+            <li>Use of the facilities such as pool and sauna</li>
+            <li>Morning breakfast with evening tea</li>
+            <li>Multiple treatments of your choice</li>
+            <li>Choice of one class per group</li>
+          </ul>
+          <p>Cost: £195pp</p>
+          <div class="book-now-button">
+            <a href="#" class="book-link">
+              <button class="book-btn">BOOK NOW</button>
+            </a>
+          </div>
         </div>
+        <div class="pack-box">
+          <h2>Wellbeing Retreat</h2>
+          <p>
+            If you would like the full package then choose the Wellbeing Retreat
+            where you get unlimited treatments including all classes and
+            facilities. This is for upto 3 people and 5 nights where again you
+            get morning breakfast, evening tea and the choice of dinner as well.
+          </p>
 
-      </div>
-      <div class="pack-box">
-        <h2>Wellbeing Retreat</h2>
-        <p>
-          If you would like the full package then choose the Wellbeing Retreat
-          where you get unlimited treatments including all classes and
-          facilities. This is for upto 3 people and 5 nights where again you get
-          morning breakfast, evening tea and the choice of dinner as well.
-        </p>
-
-        <h3>Benefits</h3>
-        <ul class="list">
-          <li>Unlimited treatments</li>
-          <li>Access to all facilities and classes</li>
-          <li>5 days of professional treatments with our well trained staff</li>
-          <li>
-            Morning breakfast, evening tea and a choice of dinner in our world
-            famous restaurant
-          </li>
-          <li>1 to 1 wellbeing life pack on your personal care</li>
-        </ul>
-        <p>Cost: £450pp</p>
-        <div class="book-now-button">
-          <a href="#" class="book-link">
-            <button class="book-btn">BOOK NOW</button>
-          </a>
+          <h3>Benefits</h3>
+          <ul class="list">
+            <li>Unlimited treatments</li>
+            <li>Access to all facilities and classes</li>
+            <li>
+              5 days of professional treatments with our well trained staff
+            </li>
+            <li>
+              Morning breakfast, evening tea and a choice of dinner in our world
+              famous restaurant
+            </li>
+            <li>1 to 1 wellbeing life pack on your personal care</li>
+          </ul>
+          <p>Cost: £450pp</p>
+          <div class="book-now-button">
+            <a href="#" class="book-link">
+              <button class="book-btn">BOOK NOW</button>
+            </a>
+          </div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -382,17 +414,21 @@
         <div class="social-links">
           <ul>
             <li>
-              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-3x"></i></a>
+              <a href="https://www.facebook.com"
+                ><i class="fa-brands fa-facebook fa-3x"></i
+              ></a>
             </li>
             <li>
-              <a href="https://www.twitter.com"><i class="fa-brands fa-twitter fa-3x"></i></a>
+              <a href="https://www.twitter.com"
+                ><i class="fa-brands fa-twitter fa-3x"></i
+              ></a>
             </li>
             <li>
-              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-3x"></i></a>
-            </li> 
+              <a href="https://www.instagram.com"
+                ><i class="fa-brands fa-instagram fa-3x"></i
+              ></a>
+            </li>
           </ul>
-          
-          
         </div>
       </div>
       <div class="copyright">
