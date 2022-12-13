@@ -293,6 +293,17 @@ h1, h2, h3, h4 {
     height: 200px;
 }
 
+/* video area */
+
+.video-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
 /*testimonial section*/
 
 .testimonial-container {
@@ -844,6 +855,7 @@ input[type=submit] {
    /*packages*/
 
 
+
    .package-wrapper{
     flex-direction: column;
     align-items: center;
@@ -852,7 +864,7 @@ input[type=submit] {
    .pack-box {
     width: 90vw;
     margin-bottom: 15px;
-    height: fit-content;
+    height: 500px;
 
    }
 
@@ -907,6 +919,12 @@ input[type=submit] {
     width: 90vw;
    }
 
+
+   /*video*/
+
+   .video-wrapper {
+    width: 90vw;
+   }
 
 
 
