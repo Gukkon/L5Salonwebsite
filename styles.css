@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 body {
@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
     border: none;
     font-size: 15px;
     letter-spacing: 1.3px;
-    
+
 }
 
 
@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
     border-bottom: thin solid black;
 }
 
-.sub-heading-nav a {  
+.sub-heading-nav a {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 }
 
 .sub-heading-nav a:hover {
-    text-decoration: underline;   
+    text-decoration: underline;
     text-decoration-color: rgb(72, 90, 72);
     text-decoration-thickness: 2px;
 }
@@ -97,11 +97,6 @@ h1, h2, h3, h4 {
     border-radius: 10px;
 }
 
-/* .sub-heading-nav li:hover {
-    background-color: rgb(72, 90, 72);  
-    text-decoration-color: rgb(72, 90, 72);
-    text-decoration-thickness: 2px;
-} */
 
 .promo-vid {
     width: 45%;
@@ -120,7 +115,7 @@ h1, h2, h3, h4 {
 .salon {
     width: 1200px;
     height: 700px;
-    
+
 }
 
 .main {
@@ -138,7 +133,7 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     margin-left: 15px;
-    
+
 }
 
 .title {
@@ -241,7 +236,7 @@ h1, h2, h3, h4 {
     text-align: center;
     margin: 0 0 20px 0;
     font-size: 1.9rem;
-    
+
 }
 
 .images-wrapper {
@@ -273,7 +268,7 @@ h1, h2, h3, h4 {
 .pack-box {
     width: 30%;
     text-align: center;
-}   
+}
 
 .gal-pic {
     width: 470px;
@@ -335,7 +330,7 @@ footer {
 
 
 .social-links li {
-    list-style: none; 
+    list-style: none;
 }
 
 .social {
@@ -347,23 +342,6 @@ footer {
     justify-content: space-between;
 }
 
-/* 
-.social-logo-f {
-    width: 41px;
-    height: 41px;
-}
-.social-logo-t {
-    width: 47px;
-    height: 47px;
-}
-.social-logo-i {
-    width: 45px;
-    height: 45px;
-}
-
-.copyright {
-    margin-right: 20px;
-} */
 
 /*contact us page*/
 
@@ -565,7 +543,7 @@ input[type=submit] {
         margin-top: 20px;
         margin-bottom: 20px;
         height: 300px;
-        
+
     }
 
     .skincare {
@@ -604,7 +582,7 @@ input[type=submit] {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        
+
     }
 
     .sub-heading-nav ul {
@@ -615,7 +593,7 @@ input[type=submit] {
     .sub-heading-nav ul li {
         padding: 5px 0;
     }
-    
+
     .hamburger {
         display: flex;
         top: 160px;
@@ -636,7 +614,7 @@ input[type=submit] {
 
     .article-wrapper {
         width: 100vw;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .about {
@@ -684,7 +662,7 @@ input[type=submit] {
         justify-items: center;
         margin-top: 10px;
        }
-    
+
        .skin-logo {
         margin: 0;
         width: 40%;
@@ -700,15 +678,15 @@ input[type=submit] {
        .testimonial-container {
         height: auto;
        }
-        
-    
+
+
        .testimonial-container h1 {
         margin: 0;
         padding: 10px 0 0;
         text-align: center;
        }
-    
-    
+
+
        .testimonial-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -728,7 +706,7 @@ input[type=submit] {
        }
 
 
-    
+
        footer {
         display: flex;
         flex-direction: column;
@@ -796,13 +774,13 @@ input[type=submit] {
 
     .article-wrapper {
         width: 100vw;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .about {
        text-align: center;
        padding: 0 15px;
-       
+
     }
 
     .offer {
@@ -875,7 +853,7 @@ input[type=submit] {
     width: 90vw;
     margin-bottom: 15px;
     height: fit-content;
-    
+
    }
 
  /* testimonials */
@@ -930,7 +908,7 @@ input[type=submit] {
    }
 
 
-  
+
 
    /* contact page*/
 
@@ -938,7 +916,7 @@ input[type=submit] {
     width: 90vw;
    }
 
-   
+
    textarea {
     max-width: 80vw;
 
@@ -946,4 +924,3 @@ input[type=submit] {
 
 
 }
-    
