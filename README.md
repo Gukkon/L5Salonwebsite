@@ -141,3 +141,17 @@ Plenty of testing was carried out whilst designing the website and this was done
 - Lastly I need to prevent the book now button on the treatment page to stop moving with the paragraphs content and to stay where it is at the bottom of the div so it looks neat and flows well with the page. Maybe adding a min/max-height property to the div to help solve this.
 
 I tested the form on the contact page and the book now banner on the homepage by inserting data onto the input fields and pressing the submit button to see if the data would be sent. "Required" values were in the html code and just wanted to see if they worked if all the content was added and part of it was. It was a success and worked fine.
+
+## Home Page w3c Validator
+
+![](/images/1-12%20w3c%20validator%20results.png)
+![](/images/13-24%20w3c%20validator%20results.png)
+
+## Treatment Page w3c Validator
+
+![](/images/Treatment%20page%20validator.png)
+
+## Contact Page w3c Validator
+
+![](/images/contact%20page%20validator-1.png)
+![](/images/contact%20page%20validator-2.png)
