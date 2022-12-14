@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* .promo-vid {
+ .promo-vid {
     width: 45%;
     margin: 0 auto;
 }
@@ -107,7 +107,7 @@ h1, h2, h3, h4 {
     padding: 56.25% 0 0 0;
     position: relative;
     margin-top: 30px;
-} */
+}
 
 .top-container {
     text-align: center;
@@ -924,6 +924,7 @@ input[type=submit] {
 
    .video-wrapper {
     width: 90vw;
+    margin-bottom: 15px;
    }
 
 
