@@ -56,7 +56,9 @@ The images used are all from free sites such as shuttershock, pexel and freepic 
 
 I always wanted to have the content all through the middle of the page so that the user can have all the information centrally and not have to keep scanning the whole screen. With it being central like that keeps everything uniformed , restricted and easy to access. I did all my wireframes on a piece of paper as I like to doodle my thoughts there and then and find it a lot easier and quicker to do.
 
-![]()
+![The wire frame for the index page](/images/index%20page%20wireframe.png)
+![The wire frame for the index page](/images/treatment%20page%20wireframe.png)
+![The wire frame for the index page](/images/contact%20page%20wireframe.png)
 
 # Features
 
@@ -86,7 +88,15 @@ Other pages involved are;
 
 To view the site, please click on the link : [Simply Anais](https://https://github.com/Gukkon/L5Salonwebsite.git)
 
-_pics_
+## Home Page
+
+## Treatment Page
+
+![](/images/treatment%20page.png)
+
+## Contact Page
+
+![](/images/contact%20page.png)
 
 # Future plans
 
