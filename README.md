@@ -56,7 +56,7 @@ The images used are all from free sites such as shuttershock, pexel and freepic 
 
 I always wanted to have the content all through the middle of the page so that the user can have all the information centrally and not have to keep scanning the whole screen. With it being central like that keeps everything uniformed , restricted and easy to access. I did all my wireframes on a piece of paper as I like to doodle my thoughts there and then and find it a lot easier and quicker to do.
 
-_pics_
+![]()
 
 # Features
 
