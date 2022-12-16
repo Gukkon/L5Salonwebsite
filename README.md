@@ -10,6 +10,8 @@ Here is a website I have made for my partners fictional beauty business. The sit
 
 # User Experience
 
+** Please note that only the Home Page, Treatment Page and Contact page are available. The other links on the navigation bar are, at the moment, are for visual purposes only to show what the finished look of the site would be like. **
+
 The Simply Anais website is a typical beauty site where users can land on the home page and read all about the beauty business on what it has to offer and to book a stay there using its facilities to have a relaxing retreat from their busy lives. Also on the home page you have your typical navigation bar that allows users to travel through the site to other pages that offers more information regarding the business such as;
 
 - Treatment Page
@@ -119,6 +121,7 @@ I have used a range of technologies on this site from different languages, fonts
 - Pexel - For Images
 - Shutterstock - For Images
 - Code Institute - For knowledge of the languages used
+- Vimeo for the video I created on the home page
 - You Tube - Following Kevin Powell and Triversy Media for awhile and used lessons from their channel to use flexbox and css grid plus other tips and tricks.
 - HTML & CSS book by Jon Duckett to have more help on the language side of things plus other tips and tricks.
 
