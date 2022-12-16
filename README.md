@@ -116,8 +116,10 @@ I have used a range of technologies on this site from different languages, fonts
 ## Frameworks, Libraries, Programs & other Websites
 
 - Github - To save and store my site
+- VsCode was the text editor used
 - Firefox Dev Tools - To monitor and fix any problems I might have
 - Google Fonts - Using a range of fonts
+- Font Awesome was used for the social Links
 - Pexel - For Images
 - Shutterstock - For Images
 - Code Institute - For knowledge of the languages used
@@ -129,19 +131,21 @@ I have used a range of technologies on this site from different languages, fonts
 
 # Testing
 
-Plenty of testing was carried out whilst designing the website and this was done on firefox Dev Tools a lot. There are still a few areas that I would like to improve as well.
+Plenty of testing was carried out whilst designing the website and this was done quite a bit on firefox Dev Tools. There are still a few areas that I would like to improve as well with a lot of bugs such as;
 
 - I had multiple issues where my margins from my divs and headers were all merging into one causing a lot of white space that had to be cleared up. Dev tools helped me find which element overpowered the other one and actions were made on targeting the margin where the problem was.
 
 - Images on the home page were spilling out of its container and onto other content when browser window was being shrunk down for media query testing. I added a set height to the section element that the images were in so that the images would stay in the container whilst the browser was minimised.
 
-- Images themselves still need optimising, especially the social links as the twitter logo is bigger than the other two making it stand out. Will need to rectify this at some point throughout the making of this site.
+- Images themselves still need optimising, especially the social links as the twitter logo is bigger than the other two making it stand out. These were changed and Font Awesome was used as images for the links now so they all look proportionate.
 
-- When minimising the browser window I still need create a suitable drop down menu for the nav bar. I have created t he 3 bars for the user to interact with, but I still need to create some javascript to allow the user to press the bars and access the navigation bar.
+- When minimising the browser window I still need create a suitable drop down menu for the nav bar. I have created the 3 bars for the user to interact with, but I still need to create some javascript to allow the user to press the bars and access the navigation bar.
 
 - Lastly I need to prevent the book now button on the treatment page to stop moving with the paragraphs content and to stay where it is at the bottom of the div so it looks neat and flows well with the page. Maybe adding a min/max-height property to the div to help solve this.
 
 I tested the form on the contact page and the book now banner on the homepage by inserting data onto the input fields and pressing the submit button to see if the data would be sent. "Required" values were in the html code and just wanted to see if they worked if all the content was added and part of it was. It was a success and worked fine.
+
+I used w3c validator to go through my pages and all came up ok. The reason for all the "info" lines is because of the extension I have with VsCode that adds a space and then the slash at the end of most line of code. Not really a problem and does not affect the code.
 
 ## Home Page w3c Validator
 
@@ -156,3 +160,23 @@ I tested the form on the contact page and the book now banner on the homepage by
 
 ![](/images/contact%20page%20validator-1.png)
 ![](/images/contact%20page%20validator-2.png)
+
+---
+
+# Credits
+
+## Code Used
+
+The video was created using Vimeo which is a third party site where you can click and drag video snippets of so many seconds and add them to the video generator to create one full video. The code was then generated and copied and pasted on to the home page.
+
+You Tubers Traversay and Kevin Powell had tutorials on flexbox and css grid to help me recap on these layout code for the overall look on my site.
+
+Images from free image download sites such as shuttershock, pexal and unsplash all helped provide me with salon picture ideas.
+
+## Content
+
+The content of this site was written by myself for my partner as a fictional spa business. I did it on the basis that she was my client and I wanted to create a site purposely for her business to gain customers new and existing. Overall she was happy with what I have done so far and is please to see what is on offer as time goes on.
+
+## Acknowledgments
+
+Just a thank you here to everybody on my course (Rossanne, Skye, Rach and Tom) for helping me with little pointers every now and again on slack on where I can improve my site or with anything I was struggling with. The same goes to my tutor Rob who has been helpful throughout this milestone via email and on Thursday night lessons with all the gang.
