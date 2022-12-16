@@ -24,8 +24,6 @@ A few of the pages on the site are informative for first time users that visit t
 
 All this information would be beneficial for new users that have never been to a spa or this spa in general so when next time they want to visit the spa again, they already have the knowledge of what to expect and to then visit the website, head straight to the booking page and simply book the spa package they require with no hassle.
 
-To view the site, please click on the link : [Simply Anais](https://https://github.com/Gukkon/L5Salonwebsite.git)
-
 ---
 
 # Design
@@ -36,8 +34,6 @@ I first designed my site with plenty of colours. I had a green background for th
 I decided the new site to have a bright white background colour so that any information on the page will "pop" out and be more clear for the user to see what is on offer. Having the white background will also help navigate through the site more easily as well due to nothing distracting the user with a lot fancy colours obscuring vital links.
 
 There is also a hint of green for the buttons and some text along with a light cream colour to help break up the continuous black and white throughout each page.
-
-_pics_
 
 ### Typography
 
@@ -54,7 +50,7 @@ The images used are all from free sites such as shuttershock, pexel and freepic 
 
 ### Wireframes
 
-I always wanted to have the content all through the middle of the page so that the user can have all the information centrally and not have to keep scanning the whole screen. With it being central like that keeps everything uniformed , restricted and easy to access. I did all my wireframes on a piece of paper as I like to doodle my thoughts there and then and find it a lot easier and quicker to do.
+I always wanted to have the content all through the middle of the page so that the user can have all the information centrally and not have to keep scanning the whole screen. With it being central, it keeps everything uniformed , restricted and easy to access. I did all my wireframes on a piece of paper as I like to doodle my thoughts there and then and find it a lot easier and quicker to do. I then used Microsoft paint to create a more detailed wireframe so I can document it with my salon portfolio.
 
 ![The wire frame for the index page](/images/index%20page%20wireframe.png)
 ![The wire frame for the index page](/images/treatment%20page%20wireframe.png)
@@ -86,9 +82,11 @@ Other pages involved are;
 
 - Contact - Simple contact page where the user can contact the spa and ask any questions that can be answered for them.
 
-To view the site, please click on the link : [Simply Anais](https://https://github.com/Gukkon/L5Salonwebsite.git)
-
 ## Home Page
+
+![](/images/indexpage1.png)
+![](/images/indexpage2.png)
+![](/images/indexpage3.png)
 
 ## Treatment Page
 
